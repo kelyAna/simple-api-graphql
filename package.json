@@ -1,0 +1,32 @@
+{
+  "name": "simple-api-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:simple": "tsnd --respawn --transpile-only simple-server.ts",
+    "dev": "tsnd --respawn --transpile-only src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelyAna/simple-api-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelyAna/simple-api-graphql/issues"
+  },
+  "homepage": "https://github.com/kelyAna/simple-api-graphql#readme",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "apollo-server": "^3.12.0",
+    "class-validator": "^0.14.0",
+    "graphql": "^16.7.1",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^2.0.0-beta.2"
+  }
+}
